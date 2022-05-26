@@ -5,7 +5,7 @@ QX:
 #移除小红书开屏广告 要是有缓存过需要卸载APP重装
 ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config url script-response-body https://raw.githubusercontent.com/ShrimpTang/QuanX/main/rewrite/xiaohongshu.js
 [mitm]
-hostname = apptec.leapmotor.com
+hostname = *.xiaohongshu.com
 
 */
 let obj = JSON.parse($response.body);
