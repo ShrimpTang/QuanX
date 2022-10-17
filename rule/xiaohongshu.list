@@ -1,4 +1,4 @@
-# XiaoHongShu
+# > xiaohongshu
 DOMAIN-SUFFIX,c.xiaohongshu.com,REJECT
 DOMAIN-SUFFIX,t.xiaohongshu.com,REJECT
 DOMAIN-SUFFIX,t2.xiaohongshu.com,REJECT
