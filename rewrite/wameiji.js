@@ -21,6 +21,6 @@ hostname = app.meruki.cn
 let obj = JSON.parse($response.body);
 obj.data.WaitSecond =1;//等待时间 0会变成负数倒计时
 // obj.data.Open =false;
-obj.data.Img ="";
+// obj.data.Img ="";
 // obj.data.Url ="";
 $done({body: JSON.stringify(obj)});
