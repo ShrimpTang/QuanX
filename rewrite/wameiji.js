@@ -11,7 +11,7 @@
 QX:
 [rewrite_local]
 #移除挖煤姬开屏广告 要是有缓存过可能需要卸载APP重装
-^https:\//app\.meruki\.cn\/?n=Sig\.Front\.AppFront\.GetOpenAd* url script-response-body https://raw.githubusercontent.com/ShrimpTang/QuanX/main/rewrite/wameiji.js
+^https:\/\/app\.meruki\.cn\/?n=Sig\.Front\.AppFront\.GetOpenAd* url script-response-body https://raw.githubusercontent.com/ShrimpTang/QuanX/main/rewrite/wameiji.js
 
 [mitm]
 hostname = app.meruki.cn
