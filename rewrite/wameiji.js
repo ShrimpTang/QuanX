@@ -19,8 +19,8 @@ hostname = app.meruki.cn
 */
 
 let obj = JSON.parse($response.body);
-obj.data.WaitSecond =1;
-obj.data.Open =true;
-obj.data.Img ="";
-obj.data.Url ="";
+obj.data.WaitSecond =0.1;
+// obj.data.Open =true;
+// obj.data.Img ="";
+// obj.data.Url ="";
 $done({body: JSON.stringify(obj)});
